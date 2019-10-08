@@ -6,10 +6,19 @@
     <description>Recent content in Posts on SinSitio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Sep 2019 00:03:51 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 08 Oct 2019 20:22:55 +0200</lastBuildDate>
     
 	<atom:link href="https://sinsentido.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Instalar_postgre_odoo_fedora</title>
+      <link>https://sinsentido.github.io/post/instalar_postgre_odoo_fedora/</link>
+      <pubDate>Tue, 08 Oct 2019 20:22:55 +0200</pubDate>
+      
+      <guid>https://sinsentido.github.io/post/instalar_postgre_odoo_fedora/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Reinstalar mysql en Fedora</title>
