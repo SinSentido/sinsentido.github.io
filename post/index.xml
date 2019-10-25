@@ -6,10 +6,20 @@
     <description>Recent content in Posts on SinSitio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Oct 2019 20:22:55 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 25 Oct 2019 00:22:13 +0200</lastBuildDate>
     
 	<atom:link href="https://sinsentido.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Instalar drivers Realtek rtl8821ce</title>
+      <link>https://sinsentido.github.io/post/confdriversrtl8821ce/</link>
+      <pubDate>Fri, 25 Oct 2019 00:22:13 +0200</pubDate>
+      
+      <guid>https://sinsentido.github.io/post/confdriversrtl8821ce/</guid>
+      <description>Instalar drivers Realtek rtl8821ce Al parecer Realtek todavía no se ha dignado a sacar los drivers para linux para la tarjeta de red rtl8821ce y tampoco ha abierto el código para que sea la propia comunidad la que cree los drivers, así que de nuevo al actualizar el kernel de linux, tonto de mi, me olvidé de este pequeño detalle.
+Vamos a hacer un breve repaso de como instalar los drivers.</description>
+    </item>
     
     <item>
       <title>Instalar_postgre_odoo_fedora</title>
@@ -17,7 +27,10 @@
       <pubDate>Tue, 08 Oct 2019 20:22:55 +0200</pubDate>
       
       <guid>https://sinsentido.github.io/post/instalar_postgre_odoo_fedora/</guid>
-      <description></description>
+      <description>#Añadir el repositorio $ sudo rpm -Uvh https://yum.postgresql.org/11/fedora/fedora-30-x86_64/pgdg-fedora-repo-latest.noarch.rpm [sudo] password for sinsentido: Recuperando https://yum.postgresql.org/11/fedora/fedora-30-x86_64/pgdg-fedora-repo-latest.noarch.rpm advertencia:/var/tmp/rpm-tmp.GZQLBc: EncabezadoV4 DSA/SHA1 Signature, ID de clave 442df0f8: NOKEY Verifying&amp;hellip; ################################# [100%] Preparando&amp;hellip; ################################# [100%] Actualizando / instalando&amp;hellip; 1:pgdg-fedora-repo-42.0-5 ################################# [100%] 
+#Instalar postgre
+#Comprobar la version instalada y verifiacar que se se ha instalado correctamente psql &amp;ndash;version psql (PostgreSQL) 12.0 
+#Inicializar postgre y crear sus archivos de configuración. sudo /usr/pgsql-12/bin/postgresql-12-setup initdb [sudo] password for sinsentido: Initializing database &amp;hellip; OK</description>
     </item>
     
     <item>

@@ -31,6 +31,21 @@
   <h1 class="list-title">Posts</h1>
   
     <article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/post/confdriversrtl8821ce/">Instalar drivers Realtek rtl8821ce</a></h2>
+  <div class="meta">
+
+    <span class="key">publicado en</span>
+    <span class="val"><time itemprop="datePublished" datetime="2019-10-25">October 25, 2019</time></span>
+
+  </div>
+  <section class="summary">
+    Instalar drivers Realtek rtl8821ce Al parecer Realtek todavía no se ha dignado a sacar los drivers para linux para la tarjeta de red rtl8821ce y tampoco ha abierto el código para que sea la propia comunidad la que cree los drivers, así que de nuevo al actualizar el kernel de linux, tonto de mi, me olvidé de este pequeño detalle.
+Vamos a hacer un breve repaso de como instalar los drivers.  <a href="/post/confdriversrtl8821ce/">Seguir leyendo...</a>
+  </section>
+</article>
+
+  
+    <article class="list-item" itemscope itemtype="http://schema.org/Blog">
   <h2 class="headline" itemprop="headline"><a href="/post/instalar_postgre_odoo_fedora/">Instalar_postgre_odoo_fedora</a></h2>
   <div class="meta">
 
@@ -39,7 +54,10 @@
 
   </div>
   <section class="summary">
-     
+    #Añadir el repositorio $ sudo rpm -Uvh https://yum.postgresql.org/11/fedora/fedora-30-x86_64/pgdg-fedora-repo-latest.noarch.rpm [sudo] password for sinsentido: Recuperando https://yum.postgresql.org/11/fedora/fedora-30-x86_64/pgdg-fedora-repo-latest.noarch.rpm advertencia:/var/tmp/rpm-tmp.GZQLBc: EncabezadoV4 DSA/SHA1 Signature, ID de clave 442df0f8: NOKEY Verifying&hellip; ################################# [100%] Preparando&hellip; ################################# [100%] Actualizando / instalando&hellip; 1:pgdg-fedora-repo-42.0-5 ################################# [100%] 
+#Instalar postgre
+#Comprobar la version instalada y verifiacar que se se ha instalado correctamente psql &ndash;version psql (PostgreSQL) 12.0 
+#Inicializar postgre y crear sus archivos de configuración. sudo /usr/pgsql-12/bin/postgresql-12-setup initdb [sudo] password for sinsentido: Initializing database &hellip; OK  <a href="/post/instalar_postgre_odoo_fedora/">Seguir leyendo...</a>
   </section>
 </article>
 
